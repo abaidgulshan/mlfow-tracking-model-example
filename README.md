@@ -19,8 +19,11 @@ python3 get-pip.py
 ```
 python3 -m pip install mlflow
 ```
-### Run mlflow
+
+## Run mlflow
 ```
+git clone git@github.com:abaidgulshan/mlfow-tracking-model-example.git
+cd mlfow-tracking-model-example
 python3 train_model.py
 ```
 # ⚙️  Upload artifact to S3 bucket
