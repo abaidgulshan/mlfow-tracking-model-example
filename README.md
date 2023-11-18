@@ -17,11 +17,11 @@ python3 get-pip.py
 ```
 ### Install mlflow 
 ```
-python -m pip install mlflow
+python3 -m pip install mlflow
 ```
 ### Run mlflow
 ```
-python train_model.py
+python3 train_model.py
 ```
 
 # 🛠️ Building the Docker Image
