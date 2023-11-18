@@ -23,6 +23,11 @@ python3 -m pip install mlflow
 ```
 python3 train_model.py
 ```
+# ⚙️  Upload artifact to S3 bucket
+
+```
+aws s3 cp mlruns/0/da5c2192da744b038920a404c26cb6fd/artifacts/model/*  s3://mlflow-serving-artifect/model/
+```
 
 # 🛠️ Building the Docker Image
 ```
